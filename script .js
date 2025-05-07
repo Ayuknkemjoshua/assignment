@@ -1,10 +1,16 @@
 
-function min(a, b) {
-    return a < b ? a : b;
-  }
-  console.log(min(5, 10)); 
-let a =5;
-b =10;
+const pow = (a, b) => {
+    let result = 1;
+    const isNegative = b < 0;
+    b = Math.abs(b);
+
+    for (let i = 0; i < b; i++) {
+        result *= a;
+    }
+
+    return isNegative ? 1 / result : result;
+};
+console.log(pow(2,3))
 
 
 
