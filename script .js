@@ -1,10 +1,12 @@
 
-function min(a, b) {
-    return a < b ? a : b;
-  }
-  console.log(min(5, 10)); 
-let a =5;
-b =10;
-
+const factorial = (n) => {
+    if (n < 0) return undefined;
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+};
+console.log(factorial(5));
 
 
