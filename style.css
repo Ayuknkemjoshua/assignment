@@ -1,0 +1,16 @@
+body {
+background-color: antiquewhite;
+color: aliceblue;
+width: 100%;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#btn, #btn1 {
+ width: 100px;
+ height: 50px;
+ border-radius: 10px;
+ background-color: aqua;
+ color: black;
+}
